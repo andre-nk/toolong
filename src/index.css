@@ -1,13 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@font-face {
+  font-family: "GTSuper";
+  font-weight: 900;
+  font-style: normal;
+  src: url("../public/fonts/GTSuper_Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GTSuper";
+  font-weight: 900;
+  font-style: italic;
+  src: url("../public/fonts/GTSuper_BlackItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GTSuper";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../public/fonts/GTSuper_Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GTSuper";
+  font-weight: 700;
+  font-style: italic;
+  src: url("../public/fonts/GTSuper_BoldItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GTSuper";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../public/fonts/GTSuper_Book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GTSuper";
+  font-weight: 400;
+  font-style: italic;
+  src: url("../public/fonts/GTSuper_BookItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GTSuper";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../public/fonts/GTSuper_Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GTSuper";
+  font-weight: 500;
+  font-style: italic;
+  src: url("../public/fonts/GTSuper_MediumItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GTSuper";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../public/fonts/GTSuper_Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "GTSuper";
+  font-weight: 400;
+  font-style: italic;
+  src: url("../public/fonts/GTSuper_RegularItalic.otf") format("opentype");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
