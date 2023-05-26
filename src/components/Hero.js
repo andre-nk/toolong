@@ -1,12 +1,12 @@
 export default function Hero() {
   
   return (
-    <div className="pb-20">
-      <div className=" lg:flex lg:justify-between lg:flex-row-reverse lg:items-center">
+    <div className="pb-20 overflow-x-hidden">
+      <div className=" lg:flex lg:justify-between lg:flex-row-reverse lg:items-center overflow-x-clip">
         <div className="flex justify-center overflow-hidden lg:-mr-32" >
-          <div className="min-w-[485px] h-[485px] flex justify-center items-center rounded-full border-[3px] border-[#D9D9D9]/50 lg:min-w-[768px] lg:h-[768px]">
-            <div className="min-w-[351px] h-[351px] flex justify-center items-center rounded-full border-[3px] border-[#D9D9D9]/50 lg:min-w-[556px] lg:h-[556px]"> 
-              <div className="min-w-[255px] h-[255px] flex justify-center items-center rounded-full border-[3px] border-[#D9D9D9]/50 lg:min-w-[357px] lg:h-[357px]"> 
+          <div className="min-w-[485px] h-[485px] flex justify-center items-center rounded-full border-[3px] border-[#D9D9D9] lg:min-w-[768px] lg:h-[768px]">
+            <div className="min-w-[351px] h-[351px] flex justify-center items-center rounded-full border-[3px] border-[#D9D9D9] lg:min-w-[556px] lg:h-[556px]"> 
+              <div className="min-w-[255px] h-[255px] flex justify-center items-center rounded-full border-[3px] border-[#D9D9D9] lg:min-w-[357px] lg:h-[357px]"> 
                 <div className="flex justify-center relative font-sans">
                   <img src="phone.svg" alt="phone" className="lg:w-[257px]"/>
                   <div className="absolute top-[72px] -right-6 lg:top-28 lg:-right-14 bg-secondary h-fit py-[3px] px-2 lg:py-1 lg:px-4 rounded-t-full rounded-r-full shadow-[0_3px_3px_rgba(0,0,0,0.25)]">
