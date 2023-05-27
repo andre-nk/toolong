@@ -5,6 +5,7 @@ import Cards from "./components/Cards";
 import Siap from "./components/Siap";
 import Footer from "./components/Footer";
 import Tutor from "./components/Tutor";
+import IntroVIdeo from "./components/IntroVIdeo";
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -56,6 +57,7 @@ function App() {
       </nav>
       <div className="relative lg:absolute lg:top-4 bg-neutral-light flex flex-col space-y-24">
         <Hero />
+        <IntroVIdeo />
         <Cards />
         <Tutor />
         <Siap />
