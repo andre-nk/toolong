@@ -1,6 +1,6 @@
 export default function Footer() { 
   return (
-    <div className="pt-16 pb-28 px-10 bg-neutral-dark text-white font-sans lg:px-20">
+    <div className="pt-16 pb-28 lg:pb-4 px-10 bg-neutral-dark text-white font-sans lg:px-20">
       <div className="lg:flex lg:justify-between lg:flex-row-reverse">
         <div className="mb-16 lg:flex lg:gap-32">
           <div className="mb-12">
@@ -9,7 +9,7 @@ export default function Footer() {
               <li className="mb-3">Home</li>
               <li className="mb-3">Help Center</li>
               <li className="mb-3">Privacy Policy</li>
-              <li className="mb-3">Terms and Conditionsr</li>
+              <li className="mb-3">Terms and Conditions</li>
             </ul>            
           </div>
           <div className="mb-12">

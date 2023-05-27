@@ -31,14 +31,14 @@ export default function Hero() {
             it's never too long<br/>
             for a <span className="text-primary italic">tolong</span>
           </h1>
-          <p className="text-black mb-5 text-center leading-relaxed font-light text-sm font-sans lg:text-left lg:text-lg lg:mb-10">
+          <p className="text-black mb-6 text-center leading-relaxed font-light text-sm font-sans lg:text-left lg:text-lg lg:leading-relaxed lg:mb-10">
             Lorem ipsum, tapi bosen, gatau mau ngetik<br/>
             apa hehe, duh capek, kok saya ngedesign?<br/>
             yaudah lah ya yang penting kelar<br/>
             gg lu ndree, memang jago
           </p>
           <div className="flex justify-center lg:justify-start">
-            <button className="bg-primary py-[10px] px-[14px] lg:py-2 lg:px-5 rounded-[7px] font-semibold font-sans text-sm text-white lg:text-base lg:leading-8">Download sekarang</button>
+            <button className="bg-primary hover:bg-primary-alt duration-200 transition py-[10px] px-[14px] lg:py-2 lg:px-5 rounded-[7px] font-semibold font-sans text-sm text-white lg:text-base lg:leading-8">Download sekarang</button>
           </div>
         </div>
       </div>
