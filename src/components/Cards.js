@@ -5,10 +5,10 @@ export default function Cards() {
     return(
       <div className="mb-8 font-sans">
         <img src={props.imgSrc} alt={props.imgAlt} 
-          className="rounded-xl mb-5 lg:mb-8"
+          className="rounded-xl mb-6"
         />
-        <h2 className="mb-[6px] text-primary text-xl font-semibold leading-4 lg:text-[28px] lg:mb-4 lg:leading-5">{props.title}</h2>
-        <p className="mb-1 text=[14px] font-light leading-[21px] text-xl lg:leading-8">{props.sub}</p>
+        <h2 className="mb-3 text-primary text-xl md:text-2xl md:mb-1.5 font-semibold leading-4">{props.title}</h2>
+        <p className="text-sm md:text-base lg:text-lg font-light leading-[21px] lg:leading-relaxed">{props.sub}</p>
       </div>
     )
   }
