@@ -26,7 +26,19 @@ export default function TutorCarousel() {
         <button onClick={slidePrev}>
           <IoChevronBackOutline size={32} />
         </button>
-        <img src="/phone_frame.svg" alt="frame" className="h-96" />
+        <img
+          src={
+            carouselIndex === 0
+              ? "/el.svg"
+              : carouselIndex === 1
+              ? "/nada.svg"
+              : carouselIndex === 2
+              ? "/dinda.svg"
+              : "/irin.svg"
+          }
+          alt="frame"
+          className="h-96"
+        />
         <button onClick={slideNext}>
           <IoChevronForwardOutline size={32} />
         </button>
