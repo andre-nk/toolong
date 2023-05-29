@@ -53,11 +53,12 @@ export default function TutorCarousel() {
             <h4 className="text-white">1</h4>
           </div>
           <h2 className="mt-4 text-2xl font-medium text-primary">
-            Notify and Record
+            Kontak dan Rekam
           </h2>
           <p className="text-center mt-1.5 font-light">
-            You will notify the preferred contacts about your current location,
-            activate live recording of your surrounding.
+            Toolong akan membantu Anda menghubungi orang terdekat Anda untuk
+            menyampaikan lokasi keberadaan Anda. Di saat yang bersamaan, fitur
+            kamera akan langsung diaktifkan untuk merekam situasi sekitar Anda.
           </p>
         </div>
         <div
@@ -69,11 +70,11 @@ export default function TutorCarousel() {
             <h4 className="text-white">2</h4>
           </div>
           <h2 className="mt-4 text-2xl font-medium text-primary">
-            Activate Beacon
+            Aktifkan Suar
           </h2>
           <p className="text-center mt-1.5 font-light">
-            If the assault is indeed happening, you can activate beacon to alert
-            all nearby Toolong users about your situation
+            Apabila pelecehan terjadi, Anda dapat mengaktifkan fitur suar untuk
+            memberi tahu situasi anda kepada seluruh pengguna Toolong terdekat
           </p>
         </div>
         <div
@@ -85,12 +86,13 @@ export default function TutorCarousel() {
             <h4 className="text-white">3</h4>
           </div>
           <h2 className="mt-4 text-2xl font-medium text-primary">
-            Heal and Resolve
+            Pulih dan Penyelesaian
           </h2>
           <p className="text-center mt-1.5 font-light">
-            Your physical and mental health are our top priorities. After the
-            assault, we will assist you to heal and recover using our extensive
-            guides and professional helps
+            Kesehatan fisik dan mental Anda adalah prioritas utama kami. Setelah
+            kasus terjadi, kami akan mendampingi anda untuk mencari pertolongan
+            dan memulihkan diri menggunakan petunjuk dari kami dan pertolongan
+            dari pihak profesional.
           </p>
         </div>
         <div
@@ -102,12 +104,12 @@ export default function TutorCarousel() {
             <h4 className="text-white">4</h4>
           </div>
           <h2 className="mt-4 text-2xl font-medium text-primary">
-            Report to Authorities
+            Laporkan Kejadian
           </h2>
           <p className="text-center mt-1.5 font-light">
-            Whenever you&apos;re ready, you or your close contacts can resolve
-            the case to authorities with many evidence we have safely gathered
-            for you
+            Hanya setelah Anda siap, Anda atau kerabat dapat melaporkan kejadian
+            ke pihak berwajib dengan bantuan bukti yang kami telah peroleh
+            dengan aman
           </p>
         </div>
       </div>

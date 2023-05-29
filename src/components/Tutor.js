@@ -11,17 +11,15 @@ export default function Tutor() {
 
   return (
     <div className="flex flex-col py-16 px-8 lg:px-20 justify-center items-center">
-      <h2 className="font-serif font-medium text-4xl text-center lg:hidden">
-        how does
-        <br />
-        <span className="text-primary">Toolong</span> work?
+      <h2 className="font-serif font-medium text-3xl text-center lg:hidden">
+        bagaimana <span className="text-primary">Toolong</span> membantu Anda?
       </h2>
       <h2 className="font-serif font-medium text-5xl text-center hidden lg:block">
-        how does<span className="text-primary"> Toolong</span> work?
+        bagaimana<span className="text-primary"> Toolong</span> membantu Anda?
       </h2>
       <div className="hidden lg:block w-full mt-16">
-        <div className="w-full flex justify-center space-x-20">
-          <div className="flex flex-col space-y-12 pt-12">
+        <div className="w-full flex justify-center space-x-12">
+          <div className="flex flex-1 flex-col space-y-12 pt-8">
             <div
               className="flex flex-col items-end group"
               onMouseEnter={() => {
@@ -32,11 +30,13 @@ export default function Tutor() {
                 <h4 className="text-white">1</h4>
               </div>
               <h2 className="mt-4 text-2xl text-right font-medium text-primary group-hover:text-secondary duration-200 transition">
-                Notify Contacts & <br /> Live Record
+                Kontak dan Rekam
               </h2>
               <p className="text-right mt-1.5 font-light">
-                You will notify the preferred contacts about your current
-                location, activate live recording of your surrounding.
+                Toolong akan membantu Anda menghubungi orang terdekat Anda untuk
+                menyampaikan lokasi keberadaan Anda. Di saat yang bersamaan,
+                fitur kamera akan langsung diaktifkan untuk merekam situasi
+                sekitar Anda.
               </p>
             </div>
             <div
@@ -49,12 +49,13 @@ export default function Tutor() {
                 <h4 className="text-white">3</h4>
               </div>
               <h2 className="mt-4 text-2xl text-right font-medium text-primary group-hover:text-secondary duration-200 transition">
-                Heal and Resolve
+                Pulih dan Penyelesaian
               </h2>
               <p className="text-right mt-1.5 font-light">
-                Your physical and mental health are our top priorities. After
-                the assault, we will assist you to heal and recover using our
-                extensive guides and professional helps
+                Kesehatan fisik dan mental Anda adalah prioritas utama kami.
+                Setelah kasus terjadi, kami akan mendampingi anda untuk mencari
+                pertolongan dan memulihkan diri menggunakan petunjuk dari kami
+                dan pertolongan dari pihak profesional.
               </p>
             </div>
           </div>
@@ -69,9 +70,9 @@ export default function Tutor() {
                 : "/irin.svg"
             }
             alt="frame"
-            className="h-[80vh]"
+            className="h-[80vh] flex-1"
           />
-          <div className="flex flex-col space-y-12 self-end pb-16 pr-12">
+          <div className="flex flex-col flex-1 space-y-12 self-end pb-4">
             <div
               className="flex flex-col justify-start group"
               onMouseEnter={() => {
@@ -82,11 +83,12 @@ export default function Tutor() {
                 <h4 className="text-white">2</h4>
               </div>
               <h2 className="mt-4 text-2xl font-medium text-primary group-hover:text-secondary duration-200 transition">
-                Activate Beacon
+                Aktifkan Suar
               </h2>
               <p className="text-left mt-1.5 font-light">
-                If the assault is indeed happening, you can activate beacon to
-                alert all nearby Toolong users about your situation
+                Apabila pelecehan terjadi, Anda dapat mengaktifkan fitur suar
+                untuk memberi tahu situasi anda kepada seluruh pengguna Toolong
+                terdekat
               </p>
             </div>
             <div
@@ -99,12 +101,12 @@ export default function Tutor() {
                 <h4 className="text-white">4</h4>
               </div>
               <h2 className="mt-4 text-2xl font-medium text-primary group-hover:text-secondary duration-200 transition">
-                Report to Authorities
+                Laporkan Kejadian
               </h2>
               <p className="text-left mt-1.5 font-light">
-                Whenever you&apos;re ready, you or your close contacts can
-                resolve the case to authorities with many evidence we have
-                safely gathered for you
+                Hanya setelah Anda siap, Anda atau kerabat dapat melaporkan
+                kejadian ke pihak berwajib dengan bantuan bukti yang kami telah
+                peroleh dengan aman
               </p>
             </div>
           </div>
